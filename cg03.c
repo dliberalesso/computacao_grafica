@@ -1,5 +1,5 @@
 //
-// Created by dliberalesso on 19/04/17.
+// Created by dliberalesso on 03/05/17.
 //
 
 #include <GL/glut.h>
@@ -228,7 +228,7 @@ int main(int argc, char *argv[]) {
     glutInitWindowSize(600, 600);
 
     // Cria a janela passando como argumento o título da mesma
-    glutCreateWindow("Trabalho 01 - Douglas Liberalesso");
+    glutCreateWindow("Trabalho 03 - Douglas Liberalesso");
 
     // Registra a função callback de redesenho da janela de visualização
     glutDisplayFunc(desenha);

@@ -12,3 +12,6 @@ target_link_libraries(cg01 ${OPENGL_LIBRARIES} ${GLUT_LIBRARY} m)
 
 add_executable(cg02 cg02.c)
 target_link_libraries(cg02 ${OPENGL_LIBRARIES} ${GLUT_LIBRARY})
+
+add_executable(cg03 cg03.c)
+target_link_libraries(cg03 ${OPENGL_LIBRARIES} ${GLUT_LIBRARY} m)
